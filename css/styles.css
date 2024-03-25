@@ -90,11 +90,11 @@ a {
 }
 
 .hero-btn-main:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .hero-btn-main:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .features {
