@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -15,13 +16,13 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .company-name {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -33,9 +34,16 @@ a {
   cursor: pointer;
 }
 
-.header-menu-link:hover,
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
 .header-menu-link:focus {
   color: #404bbf;
+}
+
+.header-contacts {
+  font-style: normal;
 }
 
 .header-contacts-list {
@@ -45,6 +53,10 @@ a {
 }
 
 .header-contacts-link:hover {
+  color: #404bbf;
+}
+
+.header-contacts-link:focus {
   color: #404bbf;
 }
 
@@ -74,12 +86,14 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 
 .hero-btn-main:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+
+.header-menu-link:focus {
   background: #404bbf;
 }
 
@@ -108,10 +122,11 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
 }
@@ -138,10 +153,11 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -164,14 +180,17 @@ a {
 .footer {
   background-color: #2e2f42;
 }
+.footer-name {
+  color: #f4f4fd;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-text {
   font-size: 16px;
